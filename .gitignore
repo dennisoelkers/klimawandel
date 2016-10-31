@@ -24,4 +24,5 @@
 .ruby-version
 .ruby-gemset
 db/schema.rb
+.env
 
