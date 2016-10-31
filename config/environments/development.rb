@@ -45,5 +45,5 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.homegear = "https://192.168.1.56:2002/"
+  config.homegear = ENV['HOMEGEAR_URL']
 end
