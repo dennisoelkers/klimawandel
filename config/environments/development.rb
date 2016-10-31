@@ -46,4 +46,5 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   config.homegear = ENV['HOMEGEAR_URL']
+
 end
