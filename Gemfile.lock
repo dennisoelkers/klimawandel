@@ -48,6 +48,7 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
+    json (2.0.2)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -64,6 +65,8 @@ GEM
     nio4r (1.2.1)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
+    openweather2 (0.1.8)
+      json
     puma (3.6.0)
     rack (2.0.1)
     rack-cors (0.4.0)
@@ -124,6 +127,7 @@ DEPENDENCIES
   byebug
   colorize (~> 0.8.1)
   listen (~> 3.0.5)
+  openweather2 (~> 0.1.8)
   puma (~> 3.0)
   rack-cors
   rails (~> 5.0.0, >= 5.0.0.1)
