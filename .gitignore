@@ -25,4 +25,4 @@
 .ruby-gemset
 db/schema.rb
 .env
-
+tmp
