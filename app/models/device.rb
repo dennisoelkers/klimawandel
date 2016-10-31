@@ -15,6 +15,10 @@ class Device < ApplicationRecord
     homegear.getValue(id, 4, "ACTUAL_TEMPERATURE")
   end
 
+  def as_json(options={})
+    super.as_json(options).merge({:target => target, :actual => actual})
+  end
+
   protected
   def homegear
     Homegear.default
