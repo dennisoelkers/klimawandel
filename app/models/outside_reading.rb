@@ -1,0 +1,2 @@
+class OutsideReading < ApplicationRecord
+end
