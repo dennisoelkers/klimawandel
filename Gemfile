@@ -38,3 +38,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'colorize', '~> 0.8.1'
 
 gem 'openweather2', '~> 0.1.8'
+gem 'rufus-scheduler', '~> 3.2.2'
+

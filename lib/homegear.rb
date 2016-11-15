@@ -25,6 +25,6 @@ class Homegear
   end
 
   def self.default
-    return Homegear.new(Rails.configuration.homegear)
+    return Homegear.new(ENV['HOMEGEAR_URL'])
   end
 end
